@@ -136,7 +136,7 @@ function TaskDescriptionForm() {
                         placeholder="outline the perfect case"
                         className=" p-2 h-10 bg-none outline-none 
                         border-b border-black bg-transparent"
-                        style={{ width: "100%" }}
+                        style={{ width: "100%", height: "auto" }}
                         value={step.perfectCase}
                         onChange={(e) =>
                           handleStepChange(index, "perfectCase", e.target.value)
