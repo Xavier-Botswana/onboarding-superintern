@@ -1,0 +1,42 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+  font-family: 'inter';
+  src: local('inter'),
+       url('fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('truetype')
+}
+body {
+  background-image: url("assets/onboarding-img.png");
+  padding: 15px;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: auto;
+  font-family: inter;
+}
+.surround-shadow{
+  box-shadow: 0 0 5px 1px black;
+}
+.fullheight{
+  min-height: 100vh;
+}
+.tabmain{
+  background-color: gray;
+  border-top-left-radius: 0.75rem/* 12px */;
+  border-top-right-radius: 0.75rem/* 12px */;
+}
+.tabsub{
+  background-color: silver;
+  color: black;
+  
+}
+.bgmain{
+  background-image: url("assets/bg2.jfif");
+}
+.silverarea{
+  background-color: silver;
+}
